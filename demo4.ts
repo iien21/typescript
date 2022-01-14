@@ -13,7 +13,7 @@ const xiaojie = {
 };
 // 会自动分析推断的是类型推断
 
-function getTotal(one, two) {
+function getTotal1(one, two) {
   return one + two;
 }
 getTotal(1, 2);

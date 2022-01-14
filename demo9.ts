@@ -16,6 +16,9 @@ class littleGirl implements Girl6 {
     return "welcome";
   }
 }
+interface Teacher extends Girl6 {
+  teach(): string;
+}
 const girl6 = {
   name: "大大",
   age: 18,
@@ -23,12 +26,15 @@ const girl6 = {
   waistline: 33,
   sex: "woman",
   say: () => "welcome",
+  teach() {
+    return "I do";
+  },
 };
 const screenResume1 = (girl6: Girl6) => {
   girl6.age < 24 && girl6.bust > 90 && console.log(girl6.name + "in");
   girl6.age >= 24 || (girl6.bust < 90 && console.log(girl6.name + "out"));
 };
-const getResume1 = (girl6: Girl6) => {
+const getResume1 = (girl6: Teacher) => {
   console.log(girl6.age);
   console.log(girl6.bust);
   girl6.waistline && console.log(girl6.waistline);

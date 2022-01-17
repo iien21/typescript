@@ -1,6 +1,6 @@
 // private的get和set用法
 
-class littleGirl {
+class littleGirl2 {
   constructor(private _age: number) {}
   // 类的内部变量名通常以下划线开头
 
@@ -12,7 +12,7 @@ class littleGirl {
     this._age = age + 3;
   }
 }
-const xiaohua = new littleGirl(28);
+const xiaohua = new littleGirl2(28);
 xiaohua.age = 25;
 console.log(xiaohua.age);
 
@@ -24,6 +24,6 @@ class Girl {
     return "I love 2";
   }
 }
-const girl = new Girl();
+const girl5 = new Girl();
 console.log(Girl.sayLove());//静态类方法
-console.log(girl.sayLove1());//实例化方法
+console.log(girl5.sayLove1());//实例化方法

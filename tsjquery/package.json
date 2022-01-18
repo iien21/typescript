@@ -1,0 +1,12 @@
+{
+  "name": "tsparcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "parcel ./src/index.html"
+  },
+  "dependencies": {
+    "parcel": "^2.2.1"
+  }
+}

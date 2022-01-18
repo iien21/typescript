@@ -5,7 +5,6 @@
 //     document.body.appendChild(elem);
 //   }
 // }
-
 // class Content {
 //   constructor() {
 //     const elem = document.createElement("div");
@@ -13,7 +12,6 @@
 //     document.body.appendChild(elem);
 //   }
 // }
-
 // class Footer {
 //   constructor() {
 //     const elem = document.createElement("div");
@@ -28,6 +26,7 @@
 //     new Footer();
 //   }
 // }
+// 缺点污染全局变量
 
 namespace Home {
   class Header {
@@ -61,3 +60,5 @@ namespace Home {
     }
   }
 }
+// 命名空间方式
+// 全局变量很少，减少了全局污染，变量多转换为私有变量。

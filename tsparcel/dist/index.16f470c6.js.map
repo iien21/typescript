@@ -1,0 +1,1 @@
+{"mappings":"AAAA,KAAK,CAAC,OAAO,GAAW,CAAM;AAC9B,OAAO,CAAC,GAAG,CAAC,OAAO","sources":["src/page.ts"],"sourcesContent":["const teacher: string = \"feng\";\nconsole.log(teacher);\n"],"names":[],"version":3,"file":"index.16f470c6.js.map","sourceRoot":"/__parcel_source_root/"}

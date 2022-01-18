@@ -27,6 +27,7 @@
 //     new Footer();
 //   }
 // }
+// 缺点污染全局变量
 var Home;
 (function (Home) {
     class Header {
@@ -59,3 +60,4 @@ var Home;
     }
     Home.Page = Page;
 })(Home || (Home = {}));
+// 命名空间
